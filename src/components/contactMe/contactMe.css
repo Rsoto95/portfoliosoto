@@ -45,7 +45,7 @@
 
 .text-area {
   width: 40rem;
-  height: 5rem;
+  height: 0;
   border: none;
   background: radial-gradient(
     circle at 18.7% 37.8%,
