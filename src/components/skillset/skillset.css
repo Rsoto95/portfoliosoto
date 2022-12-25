@@ -1,0 +1,53 @@
+.wholeSkillSetSection {
+  width: 100%;
+  background: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+}
+
+.skillSetSection {
+  display: flex;
+  flex-direction: column;
+  margin-top: 0;
+  
+}
+
+.skillsetWord {
+  margin-top: 0;
+  color: black;
+  text-align: center;
+  padding-top: 10rem;
+  margin-bottom: 10rem;
+  font-size: 4rem;
+  border-bottom: double;
+  width: 30rem;
+}
+
+.skills {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 10rem;
+}
+
+.skills div {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 20%;
+  border: rgb(225, 234, 238);
+  color: black;
+  align-items: center;
+  height: 30rem;
+  background-color: whitesmoke;
+  box-shadow: 5px 10px 8px 10px #888888;
+  margin-bottom: 10rem;
+}
+
+.webIcon {
+  width: 7.5rem;
+  height: 7.5rem;
+}
+
+.QAIcon {
+  width: 7.5rem;
+  height: 7.5rem;
+}

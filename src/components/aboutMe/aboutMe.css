@@ -1,0 +1,145 @@
+.whole-about-us {
+  width: 100%;
+  background: radial-gradient(
+    circle at 18.7% 37.8%,
+    rgb(250, 250, 250) 0%,
+    rgb(225, 234, 238) 90%
+  );
+}
+
+.about-us {
+  width: 90%;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  height: 60rem;
+}
+
+.image-side {
+  color: black;
+  display: flex;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.information-side {
+  color: black;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  padding-top: 10rem;
+}
+
+.information-side h1 {
+  margin-bottom: 0;
+  width: 100%;
+}
+
+.information-side h4 {
+  margin-top: 0;
+  width: 100%;
+}
+
+.information-side p {
+  width: 90%;
+}
+
+.curriculum {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  max-width: 65rem;
+}
+
+.curriculum div {
+  width: 20rem;
+  height: 9rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.cvInfo h4 {
+  margin-bottom: 0;
+}
+
+.my-cv {
+  border: none;
+  background-color: aquamarine;
+  width: 12rem;
+  height: 5rem;
+  border-radius: 60px;
+  font-size: 1.6rem;
+  font-style: normal;
+  margin-bottom: 3rem;
+}
+
+.my-cv:hover {
+  cursor: pointer;
+}
+
+figure.snip1113 {
+  font-family: "Raleway", Arial, sans-serif;
+  position: relative;
+  overflow: hidden;
+  margin: 10px;
+  min-width: 220px;
+  max-width: 310px;
+  width: 100%;
+  height: 50rem;
+  background: #ffffff;
+  text-align: center;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+  margin-top: 8rem;
+}
+
+figure.snip1113 * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+figure.snip1113 img {
+  max-width: 80%;
+  margin: 40px auto;
+  display: block;
+  position: relative;
+  border: 3px solid #666666;
+  padding: 15px 15px 85px 15px;
+  -webkit-transform: translate(0, 0);
+  transform: translate(0, 0);
+}
+
+figure.snip1113 figcaption {
+  position: absolute;
+  height: 100px;
+  bottom: 0px;
+  left: 0;
+  right: 0;
+  display: block;
+}
+
+figure.snip1113 h3 {
+  background-color: #ffffff;
+  color: #000000;
+  font-size: 1.7em;
+  width: 100%;
+  padding: 5px 12px;
+  margin: 0;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+figure.snip1113 h3 span {
+  font-weight: 800;
+}
+
+figure.snip1113 h4 {
+  margin: 0;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  opacity: 0.6;
+  font-size: 1.1em;
+}

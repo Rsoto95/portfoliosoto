@@ -1,0 +1,79 @@
+.opacity {
+  width: 100%;
+  background-color: aqua;
+  min-height: 50rem;
+  z-index: 0;
+  background-image: url("./backgroundImg.jpg");
+  top: 0%;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 25)),
+    url("./backgroundImg.jpg");
+}
+
+.header-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.name {
+  margin-left: 5rem;
+  font-weight: 100;
+  margin-top: 3rem;
+}
+.header-container nav {
+  display: flex;
+  flex-direction: row;
+  gap: 5rem;
+  margin-right: 10rem;
+}
+
+.nav-bar {
+  display: flex;
+  text-align: center;
+  z-index: 2;
+  margin-top: 3rem;
+}
+
+.nav-bar ul {
+  margin: 0;
+  padding: 0;
+  padding-top: 1rem;
+  width: 10rem;
+  height: 5rem;
+}
+
+.nav-bar ul:hover {
+    transition: 0.5s;
+  background-color: rgba(0, 0, 0, 0.6);
+  cursor: pointer;
+}
+
+.hero-banner {
+  text-align: center;
+  margin: 0;
+  height: 10rem;
+}
+
+.hero-banner h1 {
+  margin: 0;
+  font-size: 4rem;
+}
+
+.hero-banner h3 {
+  margin: 0;
+  margin-top: 17rem;
+}
+
+.hero-banner h4 {
+  margin: 0;
+  margin-top: 2rem;
+  font-weight: 100;
+}
+
+/* .text-hero-banner{
+    background-color: aliceblue;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+} */

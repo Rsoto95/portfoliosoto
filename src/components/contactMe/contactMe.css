@@ -1,0 +1,89 @@
+.wholeContact {
+  width: 100%;
+  background: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+  display: flex;
+  justify-content: flex-start;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  margin-top: 0;
+  align-items: center;
+  gap: 3rem;
+}
+
+.contactWord {
+  margin-top: 0;
+  color: black;
+  text-align: center;
+  padding-top: 10rem;
+  margin-bottom: 0;
+  font-size: 4rem;
+  border-bottom: groove;
+  width: 60rem;
+}
+
+#EMAIL {
+  width: 40rem;
+  height: 5rem;
+  border: none;
+  background: radial-gradient(
+    circle at 18.7% 37.8%,
+    rgb(250, 250, 250) 0%,
+    rgb(225, 234, 238) 90%
+  );
+  font-family: Arial, Helvetica, sans-serif;
+
+  font-size: 1.6rem;
+}
+
+#EMAIL::placeholder {
+  font-style: italic;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.text-area {
+  width: 40rem;
+  height: 5rem;
+  border: none;
+  background: radial-gradient(
+    circle at 18.7% 37.8%,
+    rgb(250, 250, 250) 0%,
+    rgb(225, 234, 238) 90%
+  );
+  font-family: Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
+
+  font-size: 1.6rem;
+}
+
+.text-area::placeholder {
+  font-style: italic;
+  font-family: Arial, Helvetica, sans-serif;
+
+  font-size: 1.6rem;
+}
+
+.flecha {
+  float: left;
+  position: relative;
+  height: 5rem;
+  width: 40rem;
+  border: solid 1px #ccc;
+  border-right: none;
+  background: #eee linear-gradient(white, #f1f1f1 37%, #e1e1e1 57%, #f6f6f6);
+  margin-bottom: 10rem;
+ 
+}
+
+.flecha img {
+  width: 2rem;
+  padding-left: 1rem;
+}
+
+.flecha:hover {
+  transition: 0.5s;
+  background: rgba(0, 0, 0, 0.6);
+  cursor: pointer;
+}
