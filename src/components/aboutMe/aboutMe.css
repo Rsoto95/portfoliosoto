@@ -143,3 +143,30 @@ figure.snip1113 h4 {
   opacity: 0.6;
   font-size: 1.1em;
 }
+
+@media only screen and (max-width: 800px) {
+  .about-us {
+    width: 90%;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+  }
+
+  .whole-about-us {
+    width: 100%;
+    background: radial-gradient(
+      circle at 18.7% 37.8%,
+      rgb(250, 250, 250) 0%,
+      rgb(225, 234, 238) 90%
+    );
+  }
+
+  .curriculum div {
+    width: 50%;
+  }
+
+  .information-side {
+    padding-top: 0;
+  }
+}

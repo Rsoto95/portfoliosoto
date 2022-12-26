@@ -9,7 +9,7 @@ import Contact from "./components/contactMe/contactMe";
 
 function App() {
   return (
-    <div>
+    <div className="whole-app">
       <Header />
       <AboutMe />
       <Skillset />
