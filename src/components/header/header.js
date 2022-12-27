@@ -33,7 +33,7 @@ const Header = (props) => {
                 handleScrollIntoView(props.refs.portfolioRef);
               }}
             >
-              Proyects
+              Projects
             </ul>
             <ul
               onClick={() => {

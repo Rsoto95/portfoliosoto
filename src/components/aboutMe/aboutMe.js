@@ -40,7 +40,7 @@ const AboutMe = forwardRef((props, ref) => {
             <br></br> In a pursue of improvement I am actively doing Web
             Development, Mainly working with React & Node Js and I am highly
             proficient with HTML & CSS. As well I have use MongoDB in several
-            proyects. You can check my work
+            projects. You can check my work
             <a
               onClick={() => {
                 handleScrollIntoView(props.refs);
@@ -80,7 +80,7 @@ const AboutMe = forwardRef((props, ref) => {
               <div>Honduras</div>
             </div>
           </div>
-          <a className="my-cv" href="https://drive.google.com/file/d/14RshzqXEUD6zjDS8swdgqV7hxvsCfexl/view?usp=sharing" target="_blank">My CV</a>
+          <a className="my-cv" href="" target="_blank">My CV</a>
         </div>
       </div>
     </section>
