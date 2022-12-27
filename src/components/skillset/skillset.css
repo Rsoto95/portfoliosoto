@@ -47,13 +47,40 @@
   height: 7.5rem;
 }
 
+.skills p{
+width: 90%;  
+}
+
 .QAIcon {
   width: 7.5rem;
   height: 7.5rem;
 }
 
 @media only screen and (max-width: 800px) {
+
+  .skillSetSection{
+    display: flex;
+    align-items: center;
+    margin-top: 3rem;
+  }
+
+  .skills{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 0;
+  }
+
+
   .skills div{
-    height: none;
+    height: auto;
+    width: 100%;
+  }
+
+  .skillsetWord{
+    padding-top: 0;
   }
 }

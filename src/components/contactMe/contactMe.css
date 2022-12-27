@@ -101,4 +101,17 @@
     width: 100%;
   }
 
+  .flecha{
+    color: black;
+    width: 100%;
+  }
+
+  #EMAIL{
+    width: 100%;
+  }
+
+  .text-area{
+    width: 100%;
+  }
+
 }

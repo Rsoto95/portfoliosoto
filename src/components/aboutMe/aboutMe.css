@@ -12,7 +12,7 @@
   justify-content: center;
   display: flex;
   flex-direction: row;
-  height: 60rem;
+  height: auto;
 }
 
 .image-side {
@@ -144,6 +144,13 @@ figure.snip1113 h4 {
   font-size: 1.1em;
 }
 
+.link {
+  cursor: pointer;
+  border-bottom: solid;
+  border-width: thin;
+  color: blue;
+}
+
 @media only screen and (max-width: 800px) {
   .about-us {
     width: 90%;
@@ -168,5 +175,9 @@ figure.snip1113 h4 {
 
   .information-side {
     padding-top: 0;
+  }
+
+  .my-cv{
+    color: black;
   }
 }

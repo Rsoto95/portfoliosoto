@@ -1,9 +1,9 @@
 import "./contactMe.css";
 import flecha from "./flecha.png";
 import emailjs from "@emailjs/browser";
-import React, { useEffect, useRef, useState } from "react";
+import React, { forwardRef, useEffect, useRef, useState } from "react";
 
-const Contact = () => {
+const Contact = forwardRef( ({},ref) => {
   const form = useRef();
 
   const [currentHeight, setHeight] = useState("5rem");
@@ -43,7 +43,7 @@ const Contact = () => {
   };
 
   return (
-    <section className="wholeContact">
+    <section ref={ref} className="wholeContact">
       <div className="contact">
         <h1 className="contactWord">CONNECT WITH ME</h1>
         <form className="contact" ref={form} onSubmit={sendEmail}>
@@ -69,6 +69,6 @@ const Contact = () => {
       </div>
     </section>
   );
-};
+});
 
 export default Contact;

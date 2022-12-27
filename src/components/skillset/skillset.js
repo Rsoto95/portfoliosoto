@@ -1,10 +1,11 @@
 import "./skillset.css";
 import webDevelopment from "./webDevelopment.png";
 import QAimage from "./QA.png";
+import { forwardRef } from "react";
 
-const Skillset = () => {
+const Skillset = forwardRef(({}, ref) => {
   return (
-    <section className="wholeSkillSetSection" >
+    <section ref={ref} className="wholeSkillSetSection">
       <div className="skillSetSection">
         <h1 className="skillsetWord">MY SKILLS</h1>
         <div className="skills">
@@ -15,27 +16,24 @@ const Skillset = () => {
               className="webIcon"
             />
             <h4>Web Development</h4>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit
-              laudantium, dolores adipisci odio vel repudiandae maxime corrupti
-              aut voluptates, praesentium incidunt laborum, error nobis. Totam,
-              ipsam consectetur. Sequi, laboriosam et.
+            <p className="p">
+              React, Node Js & Mongodb are the main tools I use for web
+              development. Although I am highly adaptable so I will definitely
+              be open to work with different technologies.
             </p>
           </div>
           <div>
             <img src={QAimage} alt="Web development Icon" className="QAIcon" />
             <h4>Quality Assurance Engineer</h4>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit
-              laudantium, dolores adipisci odio vel repudiandae maxime corrupti
-              aut voluptates, praesentium incidunt laborum, error nobis. Totam,
-              ipsam consectetur. Sequi, laboriosam et.
+              I specialize on creating Test Strategy, Test Plan, Test cases, API
+              testing with postman,and Automation testing with Cypress and WebDriver-IO
             </p>
           </div>
         </div>
       </div>
     </section>
   );
-};
+});
 
 export default Skillset;
