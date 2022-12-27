@@ -65,7 +65,11 @@
 }
 
 .my-cv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border: none;
+  text-decoration: none;
   background-color: aquamarine;
   width: 12rem;
   height: 5rem;
@@ -73,6 +77,8 @@
   font-size: 1.6rem;
   font-style: normal;
   margin-bottom: 3rem;
+  text-align: center;
+  color: black;
 }
 
 .my-cv:hover {
