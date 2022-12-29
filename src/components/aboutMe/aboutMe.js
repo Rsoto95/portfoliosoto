@@ -80,7 +80,7 @@ const AboutMe = forwardRef((props, ref) => {
               <div>Honduras</div>
             </div>
           </div>
-          <a className="my-cv" href="" target="_blank">My CV</a>
+          <a className="my-cv" href="https://drive.google.com/file/d/1v1IsJkYWsJUGZmhQMBwPHZFsUjCtQG55/view?usp=sharing" target="_blank">My CV</a>
         </div>
       </div>
     </section>
