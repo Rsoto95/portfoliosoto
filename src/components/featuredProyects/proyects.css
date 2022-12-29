@@ -45,6 +45,7 @@
   box-shadow: 5px 10px 8px 10px #888888;
   margin-bottom: 10rem;
   overflow: hidden;
+  margin-right: 10rem;
 }
 
 .proyects div a {
@@ -87,6 +88,7 @@
   .proyects div {
     height: auto;
     width: 100%;
+    margin-right: 0;
   }
 
   .myProyectWord {
