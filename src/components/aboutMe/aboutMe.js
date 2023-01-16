@@ -30,8 +30,7 @@ const AboutMe = forwardRef((props, ref) => {
             Either if you are here to check my profile or you are just wandering
             around and for some random reason you ended up here, please feel
             free to know a little bit more about me.<br></br>
-            <br></br>I am an Industrial and Software Engineer (I do have two
-            University degrees) I Work on the tech industry, Currently as a
+            <br></br>I am an Industrial and Software Engineer working on the tech industry, Currently as a
             Software Quality Assurance Engineer, I specialize on Creating test
             plan, test strategy, Functional testing, UI testing,
             Regression/Smoke test and so much more, I am as well into automation
